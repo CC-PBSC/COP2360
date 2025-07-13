@@ -1,7 +1,7 @@
 public class MainClass
 {
         Vehicle myVehicle = new Vehicle("Toyota", "Corolla", 2020);
-        Truck myTruck = new Truck("Ford", "F-150", 2019, 6);
+        Truck myTruck = new Truck("Ford", "F-150", 2019, 30);
         Car myCar = new Car("Honda", "Civic", 2021, "Red");
 }
     //created by CC-PBSC, Module 3 Discussion, 2360
@@ -28,7 +28,7 @@ public class MainClass
 
     public class Truck : Vehicle
     {
-        //unique variable
+        //unique variable, in  squared feet
         public int bedSpace;
         
         //default initialization and one that takes methods
