@@ -1,6 +1,6 @@
 public class MainClass
 {
-    //created by Chris Clark, Module 3 Discussion, 2360
+    //created by CC-PBSC, Module 3 Discussion, 2360
     //creates class 
     public class Vehicle
     {
