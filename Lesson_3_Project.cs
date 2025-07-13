@@ -1,5 +1,9 @@
 public class MainClass
 {
+        Vehicle myVehicle = new Vehicle("Toyota", "Corolla", 2020);
+        Truck myTruck = new Truck("Ford", "F-150", 2019, 6);
+        Car myCar = new Car("Honda", "Civic", 2021, "Red");
+}
     //created by CC-PBSC, Module 3 Discussion, 2360
     //creates class 
     public class Vehicle
@@ -49,4 +53,4 @@ public class MainClass
             Color = color;
         }
     }
-}
+
